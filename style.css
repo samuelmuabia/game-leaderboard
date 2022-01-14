@@ -309,6 +309,9 @@ font-size: 15px;
     .course-info{
         justify-content: space-evenly;
     }
+    img{
+        margin-bottom: 10px;
+    }
 }
 @media  only screen and (max-width:410px) {
     .course-image img{
