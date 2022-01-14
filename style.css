@@ -299,9 +299,6 @@ font-size: 15px;
     .blog-details{
         flex-direction: column;
     }
-    .blog-info{
-        margin-top: 10px;
-    }
     .course-details{
         width: 100%;
         text-align: center;
@@ -309,13 +306,13 @@ font-size: 15px;
     .course-info{
         justify-content: space-evenly;
     }
-    img{
-        margin-bottom: 10px;
+    .margin{
+        margin-bottom: 15px;
     }
 }
-@media  only screen and (max-width:410px) {
+@media  only screen and (max-width:688px) {
     .course-image img{
-        width: 100%;
+        width: 80%;
     }
     .course-details{
         width: 100%;
@@ -326,7 +323,7 @@ font-size: 15px;
     .logo-title{
         display: none;
     }
-    img{
-        margin-bottom: 10px;
+    .margin{
+        margin-bottom: 15px;
     }
 }
