@@ -14,13 +14,20 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-a{
+.nav-anc{
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 h3{
     font-family: 'Poppins', sans-serif;
+}
+.player-name a{
+    text-decoration: none;
+    color: black;
+}
+.player-name a:hover{
+    border-bottom: 2px solid #12B0E8;
 }
 p{
     font-family: 'Poppins', sans-serif;
@@ -142,6 +149,7 @@ main {
     margin: 3px 0px 40px 3px;
     color: #5DA3FA;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 .top-part{
     margin-bottom: 21px;
@@ -205,6 +213,10 @@ hr{
 .blog-author a{
     color: #538efbb9;
 }
+.blog-author p{
+    font-size: 12px;
+    font-weight: 600;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -212,7 +224,7 @@ hr{
 }
 .course-image img{
     width: 224px;
-    height: 104px;
+    height: 154px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -221,6 +233,8 @@ hr{
 }
 .course-title{
     font-size: 20px;
+    font-weight: 900;
+    text-align: center;
 }
 .course-details{
     padding: 13px 17px 16px 11px;
@@ -325,5 +339,8 @@ font-size: 15px;
     }
     .margin{
         margin-bottom: 15px;
+    }
+    nav{
+        justify-content: center;
     }
 }
