@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&family=Rubik&display=swap');
+body{
+    background-color: #23c5ed34;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #12B0E8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+nav img{
+    width: 51px;
+    height: 51px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    margin-right: 36px;
+    font-size: 16px;
+    
+}
+.container{
+    width: 870px;
+    background-color: white ;
+    border-radius: 5px;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.title{
+    margin-bottom: 10px;
+    font-weight:bolder;
+    font-size: 50px;
+    white-space: nowrap;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.title::before{
+    content: 'Top';
+    position: absolute;
+    background: #538FFB;
+    background: -webkit-linear-gradient(to right, #538FFB 0%, #5B54FA 90%);
+    background: -moz-linear-gradient(to right, #538FFB 0%, #5B54FA 90%);
+    background: linear-gradient(to right, #538FFB 0%, #5B54FA 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: typing 3s linear infinite;
+
+}
+@keyframes typing {
+    0% {
+        content: 'T|';
+    }
+    8% {
+        content: 'To|';
+    }
+    16% {
+        content: 'Top|';
+    }
+    24% {
+        content: 'Top |';
+    }
+    32% {
+        content: 'Top L|';
+    }
+    40% {
+        content: 'Top Li|';
+    }
+    48% {
+        content: 'Top Lis|';
+    }
+    54% {
+        content: 'Top List|';
+    }
+    54%,83%{
+        content: 'Top List|';
+    }
+    84%{
+        content: 'Top Lis|';
+    }
+    86%{
+        content: 'Top Li|';
+    }
+    88%{
+        content: 'Top L|';
+    }
+    90%{
+        content: 'Top |';
+    }
+    92%{
+        content: 'Top|';
+    }
+    94%{
+        content: 'To|';
+    }
+    96%{
+        content: 'T|';
+    }
+    98%{
+        content: '|';
+    }
+    100%{
+        content: '|';
+    }
+    
+
+}
+.section-title{
+    margin: 3px 0px 40px 3px;
+    color: #5DA3FA;
+    font-family: 'Poppins', sans-serif;
+}
+.top-part{
+    margin-bottom: 21px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 40px;
+    grid-column-gap: 20px;
+    text-align: center;
+}
+.player-info img{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+.player-info{
+    display: flex;
+    align-items: center;
+
+}
+.player-name{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.top-players{
+    margin-bottom: 20px;
+
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.blog-details{
+    display: flex;
+    align-items: center;
+}
+.blog-image img{
+    width: 157px;
+    height: 150px;
+    border-radius: 5px;
+    transition: transform 3s , margin 2.5s;
+}
+.blog-image img:hover{
+    -webkit-transform: scale(1.75);
+    -ms-transform: scale(1.75);
+    transform: scale(1.75);
+    margin: 60px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-author a{
+    color: #538efbb9;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course-image img{
+    width: 224px;
+    height: 104px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.blog-title{
+    margin-bottom: 10px;
+}
+.course-title{
+    font-size: 20px;
+}
+.course-details{
+    padding: 13px 17px 16px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.course-instructor{
+    color: #ED6B4F;
+    margin: 5px 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .fill{
+    color: rgba(255, 192, 20, 1)
+}
+.empty{
+    color: rgba(174, 174, 174, 1);
+}
+.course-ratings span{
+    display: inline-block;
+    margin-left: 11px;
+}
+.course-duration{
+    background-color: #FFE4E8;
+border-radius: 14.6913px;
+padding: 5px;
+color: #FF4A60;
+font-weight: 600;
+font-size: 15px;
+}
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players , .blogs , .courses{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .player-info {
+        flex-direction: column;
+    }
+    .player-name{
+        margin-left: 0px;
+    }
+    .blog-details{
+        flex-direction: column;
+    }
+    .course-details{
+        width: 100%;
+        text-align: center;
+    }
+    .course-info{
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .players , .blogs , .courses{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .player-info {
+        flex-direction: column;
+    }
+    .player-name{
+        margin-left: 0px;
+    }
+    .blog-details{
+        flex-direction: column;
+    }
+    .blog-info{
+        margin-top: 10px;
+    }
+    .course-details{
+        width: 100%;
+        text-align: center;
+    }
+    .course-info{
+        justify-content: space-evenly;
+    }
+}
+@media  only screen and (max-width:410px) {
+    .course-image img{
+        width: 100%;
+    }
+    .course-details{
+        width: 100%;
+    }
+    .nav-items img{
+        display: none;
+    }
+    .logo-title{
+        display: none;
+    }
+
+    .blog-info{
+        margin-top: 10px;
+    }
+}
